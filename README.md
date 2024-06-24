@@ -8,7 +8,7 @@
 1. nextフォルダーのnode_moduleが空であれば削除する
 2. `docker compose exec next /bin/bash`
 3. nextコンテナ内で `npm i`
-4. nextコンテナ内で `npm run dev`→health_check画面がlocalhost:8000で確認できる
+4. nextコンテナ内で `npm run dev`→ログイン画面がlocalhost:8000/sign_inで確認できる
 ### バック設定
 1. `docker compose run --rm rails bundle install`
 2. `docker compose exec rails /bin/bash`
